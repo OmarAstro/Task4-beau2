@@ -1,0 +1,166 @@
+.beauty {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 20px 20px;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+
+.box4 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.box4 > img {
+  max-width: 300px;
+  min-width: 150px;
+  border-radius: 6%;
+}
+
+.textbeau {
+  margin-bottom: 100px;
+}
+
+.textbeau h5 {
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: rgb(63, 62, 62);
+}
+
+.textbeau h3 {
+  margin-bottom: 40px;
+}
+
+ul {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: gray;
+}
+
+ul .li3 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+ul .li3 li {
+  margin: 10px;
+}
+
+.black {
+  font-weight: bold;
+  color: black;
+}
+.size {
+  font-size: 20px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+form .cars {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+}
+form label {
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+
+form select {
+  width: 80px;
+  color: var(--main-color);
+}
+
+form .btn4 {
+  width: 120px;
+  height: 33px;
+  margin-top: 17px;
+  margin-left: 61px;
+  color: var(--main-color);
+}
+
+@media (max-width: 991px) {
+  .beauty {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 25px;
+  }
+  .box4 {
+    width: 150px;
+    max-width: 300px;
+    min-width: 150px;
+  }
+  h3 {
+    width: 250px;
+  }
+  .size {
+    font-size: 17px;
+  }
+  .box4 > img {
+    min-width: 120px;
+    position: static;
+    margin-right: 45px;
+    margin-bottom: 115px;
+  }
+  .btn4 {
+    margin-left: 20px;
+    position: relative;
+    right: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .box4 > img {
+    max-width: 100px;
+  }
+  .beauty {
+    margin-left: -4px;
+    margin-right: 9px;
+  }
+}
+
+/*Start Footer*/
+footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 10px #ff62007a;
+  margin: 0;
+}
+
+footer p {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
