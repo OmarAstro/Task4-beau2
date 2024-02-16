@@ -13,25 +13,25 @@
   align-items: center;
   text-align: center;
   gap: 20px 20px;
-  max-width: 100%;
-  margin-left: 20px;
-  margin-right: 80px;
+  max-width: 90%;
 }
 
 .box4 {
   display: grid;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  width: 300px;
+  /* width: 300px; */
   max-width: 600px;
-  min-width: 300px;
+  min-width: 150px;
+  padding: 20px;
 }
 
 .box4 > img {
   max-width: 300px;
-  min-width: 150px;
+  min-width: 50px;
   border-radius: 6%;
+  /* margin-right: 20px; */
 }
 
 .textbeau {
@@ -42,10 +42,18 @@
   font-size: 17px;
   margin-bottom: 30px;
   color: rgb(63, 62, 62);
+  text-align: center;
+  /* width: 243px; */
+  min-width: 200px;
+  max-width: 600px;
 }
 
 .textbeau h3 {
   margin-bottom: 40px;
+  /* width: 250px; */
+  max-width: 350px;
+  text-align: center;
+  min-width: 200px;
 }
 
 ul {
@@ -58,13 +66,17 @@ ul {
 
 ul .li3 {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
 
 ul .li3 li {
   margin: 10px;
+  width: 110px;
+  max-width: 200px;
+  min-width: 120px;
 }
 
 .black {
@@ -74,80 +86,51 @@ ul .li3 li {
 .size {
   font-size: 20px;
 }
-form {
+.form1 {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
+  max-width: 250px;
+  min-width: 100px;
 }
-form .cars {
+.form1 .cars {
   display: grid;
   align-items: center;
   justify-content: start;
   text-align: center;
 }
-form label {
+.form1 label {
   font-size: 15px;
   position: relative;
   right: 20px;
 }
 
-form select {
+.form1 select {
   width: 80px;
   color: var(--main-color);
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.486);
 }
 
-form .btn4 {
+.form1 .btn4 {
   width: 120px;
   height: 33px;
   margin-top: 17px;
-  margin-left: 61px;
+  max-width: 200px;
+  margin-left: 10px;
   color: var(--main-color);
+  min-width: 100px;
+  margin-right: 15px;
+  border-radius: 3px;
+  text-align: center;
+  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.486);
 }
-
-@media (max-width: 991px) {
-  .beauty {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .container3 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    margin-left: 25px;
-  }
-  .box4 {
-    width: 150px;
-    max-width: 300px;
-    min-width: 150px;
-  }
-  h3 {
-    width: 250px;
-  }
-  .size {
-    font-size: 17px;
-  }
-  .box4 > img {
-    min-width: 120px;
-    position: static;
-    margin-right: 45px;
-    margin-bottom: 115px;
-  }
-  .btn4 {
-    margin-left: 20px;
-    position: relative;
-    right: 40px;
-  }
-}
-@media (max-width: 767px) {
-  .box4 > img {
-    max-width: 100px;
-  }
-  .beauty {
-    margin-left: -4px;
-    margin-right: 9px;
-  }
+.form1 .btn4:hover {
+  background-color: var(--main-color);
+  color: #fafafa;
 }
 
 /*Start Footer*/
