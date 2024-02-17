@@ -92,7 +92,7 @@ ul .li3 li {
 .form1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
   max-width: 250px;
