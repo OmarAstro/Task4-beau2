@@ -9,16 +9,18 @@
 
 .container3 {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
   gap: 20px 20px;
-  max-width: 90%;
+  max-width: 85%;
 }
 
 .box4 {
-  display: grid;
-  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   text-align: center;
   /* width: 300px; */
@@ -28,11 +30,12 @@
 }
 
 .box4 > img {
-  max-width: 300px;
+  max-width: 200px;
   min-width: 50px;
   border-radius: 6%;
   /* margin-right: 20px; */
 }
+
 
 .textbeau {
   margin-bottom: 100px;
