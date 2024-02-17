@@ -18,8 +18,7 @@
 }
 
 .box4 {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-align: center;
